@@ -104,6 +104,15 @@ p {
   width: 50%;
 }
 
+@media (min-width: 576px) {
+  h2 {
+    text-align: left;
+  }
+  p {
+    text-align: left;
+  }
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 40px;
@@ -115,19 +124,10 @@ p {
   h3 {
     font-size: 16px;
   }
-
-  p {
-    text-align: center;
-  }
-
   .col-12 {
     width: 100%;
-    text-align: center;
   }
-}
-
-@media (min-width: 576px) {
-  h2 {
-    text-align: left;
+  .app-links {
+    display: block;
   }
 }
